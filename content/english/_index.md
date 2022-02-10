@@ -41,17 +41,29 @@ office_culture:
 features_box:
   enable: true
   features_box_item:
-    - icon: "fas fa-file-signature"
-      title: "We care about <br> our customers"
-      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
+    - icon: "fas fa-palette"
+      title: "Create An Online Store"
+      content: "Add your own branding and content to inspire customer confidence."
 
-    - icon: "fas fa-hands-helping"
-      title: "Your design partner now <br> and in the future"
-      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
+    - icon: "fas fa-ticket-alt"
+      title: "List Your Vouchers"
+      content: "Turn whatever you do best into experiences to be purchased online."
 
-    - icon: "fas fa-headset"
-      title: "Around the clock <br> support from day one"
-      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
+    - icon: "fas fa-university"
+      title: "Manage Your Funds"
+      content: "Accept online payments instantly into your own stripe account."
+
+    - icon: "fas fa-paper-plane"
+      title: "Automatic Delivery"
+      content: "Voucherstore fulfills both email and postal orders on your behalf."
+
+    - icon: "fas fa-bolt"
+      title: "Quick Redemption"
+      content: "Look up and redeem your customers gift vouchers in an instant."
+
+    - icon: "fas fa-signal"
+      title: "In-depth Analytics"
+      content: "Get the insight required to quickly grow your gift voucher revenue. ."
 ######################### Service #####################
 service:
   enable: true
