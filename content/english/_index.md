@@ -84,10 +84,10 @@ tools_intregrate:
 ##################### Call to action #####################
 call_to_action:
   enable: true
-  title: "Ready to get started?"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat eget amtempus eu at consecttur."
+  title: "Do You Want to Increase Your Revenue?"
+  content: "Get on board with the gift card and e-voucher platform that is accelerating revenue for hospitality and leisure businesses across Thailand. Voucherstore is the streamlined e-voucher software you have been waiting for."
   button:
     enable: true
-    label: "Contact Us"
+    label: "Sign up!"
     link: "contact/"
 ---
