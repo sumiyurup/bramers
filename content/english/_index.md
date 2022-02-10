@@ -36,6 +36,22 @@ office_culture:
       enable: true
       label: "Request a demo"
       link: "/"
+
+#################Freature box##########################
+features_box:
+  enable: true
+  features_box_item:
+    - icon: "fas fa-file-signature"
+      title: "We care about <br> our customers"
+      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
+
+    - icon: "fas fa-hands-helping"
+      title: "Your design partner now <br> and in the future"
+      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
+
+    - icon: "fas fa-headset"
+      title: "Around the clock <br> support from day one"
+      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
 ######################### Service #####################
 service:
   enable: true
