@@ -10,7 +10,32 @@ intro_video:
   enable: true
   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
   video_thumbnail: "images/video-popup.jpg"
+#################Office facts##########################
+# office_culture
+office_culture:
+  enable: true
+  title: "Who Uses Voucherstore?"
+  content: "Voucherstore is an eCommerce solution for leading hospitality, health and leisure businesses throughout Thailand."
+  images:
+    - image: "images/office-culture/03.jpg"
+      column: "3" # column will be [ 6 or 3 ]
+    - image: "images/office-culture/01.jpg"
+      column: "6" # column will be [ 6 or 3 ]
+    - image: "images/office-culture/02.jpg"
+      column: "3" # column will be [ 6 or 3 ]
+    - image: "images/office-culture/07.jpg"
+      column: "6" # column will be [ 6 or 3 ]
+    - image: "images/office-culture/06.jpg"
+      column: "3" # column will be [ 6 or 3 ]
+    - image: "images/office-culture/05.jpg"
+      column: "6" # column will be [ 6 or 3 ]
 
+  join_our_team:
+    content: "Let your customers access special experiences, events, and gift card options that will put your brand out in front. Your business will sell gift vouchers online at a greater rate while gaining access to more in-depth analytics. "
+    button:
+      enable: true
+      label: "Request a demo"
+      link: "/"
 ######################### Service #####################
 service:
   enable: true

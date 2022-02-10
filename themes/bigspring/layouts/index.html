@@ -51,6 +51,70 @@
 {{ end }} {{ end }}
 <!-- /intro_video -->
 
+{{if .Params.office_culture.enable}} {{with .Params.office_culture}}
+<section class="section">
+  <div class="container">
+    <div class="row gy-4 justify-content-center">
+      <div class="col-xl-3 col-lg-6 mb-5">
+        <h2 class="section-title h3">{{.title | markdownify}}</h2>
+        <p>{{.content | markdownify}}</p>
+      </div>
+
+      {{range .images}} {{if eq .column "6"}}
+      <div class="col-xl-{{.column}} col-lg-6 col-sm-6">
+        {{ if fileExists (add `assets/` .image) }} {{$img:= resources.Get .image
+        }} {{$img:= $img.Resize "850x "}} {{$imgWebp:= $img.Resize "850x webp"}}
+        <img
+          loading="lazy"
+          decoding="async"
+          class="w-100 rounded-1 h-100"
+          style="object-fit: cover"
+          width="{{$img.Width}}"
+          height="{{$img.Height}}"
+          src="{{$imgWebp.RelPermalink}}"
+          alt="about-image"
+          onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'"
+        />
+        {{end}}
+      </div>
+      {{end}} {{if eq .column "3"}}
+      <div class="col-xl-{{.column}} col-lg-4 col-sm-6">
+        {{ if fileExists (add `assets/` .image) }} {{$img:= resources.Get .image
+        }} {{$img:= $img.Resize "500x "}} {{$imgWebp:= $img.Resize "500x webp"}}
+        <img
+          loading="lazy"
+          decoding="async"
+          class="w-100 rounded-1 h-100"
+          style="object-fit: cover"
+          width="{{$img.Width}}"
+          height="{{$img.Height}}"
+          src="{{$imgWebp.RelPermalink}}"
+          alt="about-image"
+          onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'"
+        />
+        {{end}}
+      </div>
+      {{end}} {{end}} {{ with .join_our_team }}
+      <div class="col-xl-5 col-lg-10 align-self-center mx-auto">
+        <div class="mt-6 mt-xl-0 text-center text-xl-start">
+          {{with .content }}
+          <p class="mb-4">{{ . | markdownify }}</p>
+          {{ end }} {{ if .button.enable }} {{ with .button }}
+          <a
+            href="{{ .link | relLangURL }}"
+            title="{{ .label }}"
+            class="btn btn-sm btn-outline-primary"
+            >{{ .label }}</a
+          >
+          {{ end }} {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{end}} {{end}}
+
 <!-- service -->
 {{ with .Params.service }} {{ if .enable }} {{ range $i,$p := .service_item }}
 <section class="section {{if modBool $i 2}}bg-light {{end}}">
