@@ -39,7 +39,12 @@ office_culture:
 
 #################Freature box##########################
 features_box:
+  title: "How Does Voucherstore Work?"
   enable: true
+  button:
+    enable: true
+    label: "How it works"
+    link: "/"
   features_box_item:
     - icon: "fas fa-palette"
       title: "Create An Online Store"
@@ -64,35 +69,58 @@ features_box:
     - icon: "fas fa-signal"
       title: "In-depth Analytics"
       content: "Get the insight required to quickly grow your gift voucher revenue. ."
+
+########################## Clients Logo Slider #########################
+clients_logo_slider:
+  enable: true
+  title: "Streamline Your Sales with Voucherstore"
+  content: "Our e-voucher software extends your sales opportunities. Your hotel, restaurant, spa, or golf course can join other leading businesses on the Voucherstore platform, accessing 24/7 sales opportunities in Thailand and all over the world."
+  logos:
+    - "images/brands/01-colored.png"
+    - "images/brands/02-colored.png"
+    - "images/brands/03-colored.png"
+    - "images/brands/04-colored.png"
+    - "images/brands/05-colored.png"
+    - "images/brands/06-colored.png"
+    - "images/brands/03-colored.png"
+    - "images/brands/01-colored.png"
+    - "images/brands/02-colored.png"
+    - "images/brands/04-colored.png"
+    - "images/brands/05-colored.png"
+    - "images/brands/06-colored.png"
+
 ######################### Service #####################
 service:
+  title: "What Benefits Does Voucherstore Offer?"
   enable: true
   service_item:
     # service item loop
-    - title: "It is the most advanced digital marketing company."
+    - title: "Powerful Management Tools"
       images:
         - "images/service-1.png"
-        - "images/service-2.png"
-        - "images/service-3.png"
-      content: "Adipiscing elit Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+
+      content: "The Voucherstore dashboard is a user-friendly admin tool that puts you in complete control! Manage your products, create user permissions, resolve queries, and analyse a multitude of different reports. The dashboard provides the insight and control required to grow your gift voucher revenue."
 
     # service item loop
-    - title: "It is a privately owned Information and cyber security company"
-      images:
-        - "images/service-1.png"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-
-    # service item loop
-    - title: "It’s a team of experienced and skilled people with distributions"
+    - title: "Easy Upsell Features"
       images:
         - "images/service-2.png"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content: "Easily enable revenue maximizing add-ons that will enhance the customer experience. Sell gift vouchers online that extend your brand across Thailand. Your marketing team can create promotions with Voucherstore using more accurate sales information. This allows you to offer your customers more of what they want."
 
     # service item loop
-    - title: "A company standing different from others"
+    - title: "User-Friendly Interface"
       images:
         - "images/service-3.png"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+        - "images/service-4.png"
+      content: "Voucherstore provides a seamless shopping experience for your customers. The Conversion Rate Optimized design is multi-lingual and mobile friendly, so you can reach more customers and serve them in their preferred language."
+
+    # service item loop
+    - title: "Easy Redeem Features"
+      images:
+        - "images/service-5.png"
+        - "images/service-6.png"
+        - "images/service-7.png"
+      content: "Your business and your customer benefit from vouchers and gift cards that are easier to redeem. A unique code on every voucher offers peace of mind with every sale. Your vouchers are secure, fraud-proof, and your marketing team will gain access to real-time analytics."
 
 ################### Testimonials ########################
 testimonials:
@@ -115,24 +143,6 @@ testimonials:
       name: "David Cameron"
       designation: "CEO, Nexuspay"
       image: "images/avatar/04.jpg"
-
-################### tools_intregrate ########################
-tools_intregrate:
-  enable: true
-  title: "Integrate with all the tools your teams love using"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin."
-  image: "images/screenshot.svg"
-
-  tools:
-    - "images/tools/01.png"
-    - "images/tools/02.png"
-    - "images/tools/03.png"
-    - "images/tools/04.png"
-    - "images/tools/05.png"
-    - "images/tools/06.png"
-    - "images/tools/08.png"
-    - "images/tools/09.png"
-    - "images/tools/10.png"
 
 ##################### Call to action #####################
 call_to_action:
