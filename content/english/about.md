@@ -6,107 +6,76 @@ description: "This is meta description"
 draft: false
 layout: "about"
 
-
 # about
 about:
-  title: "Give Your Team The Design Mindset & Tools"
-  content: "Create a best strategic tool, share it with your team and ensure it’s on track with intuitive dashboards. Simple enough with the flexibility Lorem ipsum dolor sit amet consectetur adipisicing elit. "
-  image: "images/about.jpg"
+  title: "ABOUT US"
+  subtitle: "Increasing Your Satisfaction Is Our Business"
+  content: "Voucherstore is working for hospitality and leisure businesses across Thailand to open up new revenue streams. Our eCommerce enabled platform helps your business sell more e-vouchers and gift cards, so your customers can better enjoy their leisure time. Voucherstore helps your customers access your products and services more easily, and we think making things simple is the smart way forward."
 
 
-# founders_quote
-founders_quote:
-  name: "Charles Dickens"
-  subtitle: "The Founder, Bigspring LLC"
-  image: "images/avatar/02.jpg"
-  content: "We’re changing how product managers, developers, and data scientists plan, track, and govern analytics across organizations. Before Avo, teams were forced to choose between product delivery speed and reliable insights."
+# team_members
+team_members:
+  - name: "John Domingo"
+    designation: "SEO Marketer"
+    image: "images/team/team-member-5.jpg"
+    social_profile:
+      - name: "Facebook"
+        icon: "fab fa-facebook"
+        link: "#!"
+      - name: "Twitter"
+        icon: "fab fa-twitter"
+        link: "#!"
+      - name: "Linkedin"
+        icon: "fab fa-linkedin"
+        link: "#!"
 
+  - name: "Angelina Jolie"
+    designation: "Developer"
+    image: "images/team/team-member-6.jpg"
+    social_profile:
+      - name: "Facebook"
+        icon: "fab fa-facebook"
+        link: "#!"
+      - name: "Twitter"
+        icon: "fab fa-twitter"
+        link: "#!"
+      - name: "Linkedin"
+        icon: "fab fa-linkedin"
+        link: "#!"
 
-# who_we_are
-who_we_are:
-  title: "Who we are?"
-  content: "We started in 2018 because we believe we can change the way organizations use data to make better decisions for their customers. We’ve been blown away by the impact BI has had on data quality and developer productivity for our customers. 
-  
-  
-  From startups to consumer it’s been incredible to see our product fundamentally change the way PMs, devs and data scientists collaborate to track and govern their analytics."
+  - name: "Perez Hilton"
+    designation: "Developer"
+    image: "images/team/team-member-7.jpg"
+    social_profile:
+      - name: "Facebook"
+        icon: "fab fa-facebook"
+        link: "#!"
+      - name: "Twitter"
+        icon: "fab fa-twitter"
+        link: "#!"
+      - name: "Linkedin"
+        icon: "fab fa-linkedin"
+        link: "#!"
 
+  - name: "Timothy Sykes"
+    designation: "Developer"
+    image: "images/team/team-member-8.jpg"
+    social_profile:
+      - name: "Facebook"
+        icon: "fab fa-facebook"
+        link: "#!"
+      - name: "Twitter"
+        icon: "fab fa-twitter"
+        link: "#!"
+      - name: "Linkedin"
+        icon: "fab fa-linkedin"
+        link: "#!"
 
-# our_mission
-our_mission:
-  title: "Our mission"
-  content: "Companies have never had to understand their customers better or faster. Consumers choose the product with the best experience and companies can’t afford to stall product decisions while waiting days or weeks for answers from a centralized BI team.
-  
-  
-  The industry gold standard has become to decentralize business intelligence, so that every team is autonomous in making data-driven decisions quickly."
-
-
-# fun facts
-fun_facts:
-  enable: true
-  title: "Fun facts about us"
-  fact_item:
-  - icon: "fas fa-fighter-jet"
-    counter: "80"
-    counter_suffix: "%"
-    content: "Spend 80% less time <br> on admin"
-
-  - icon: "far fa-dot-circle"
-    counter: "40"
-    counter_suffix: "x"
-    content: "Attract 40x more <br> the candidate"
-
-  - icon: "fas fa-dice"
-    counter: "83"
-    counter_suffix: "%"
-    content: "Reduce recruitment <br> agency spend"
-
-  - icon: "fas fa-dice-d6"
-    counter: "40"
-    counter_suffix: "%"
-    content: "Make hires 40% <br> faster"
-
-
-# features_box
-features_box:
-  enable: true
-  features_box_item:
-  - icon: "fas fa-file-signature"
-    title: "We care about <br> our customers"
-    content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
-
-  - icon: "fas fa-hands-helping"
-    title: "Your design partner now <br> and in the future"
-    content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
-    
-  - icon: "fas fa-headset"
-    title: "Around the clock <br> support from day one"
-    content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada praesent."
-
-
-# office_culture
-office_culture:
-  enable: true
-  title: "Our Office Culture"
-  content: "Create a best strategic tool, share it with your team and ensure it’s on track with intuitive dashboards."
-  images:
-  - image: "images/office-culture/03.jpg"
-    column: "3" # column will be [ 6 or 3 ]
-  - image: "images/office-culture/01.jpg"
-    column: "6" # column will be [ 6 or 3 ]
-  - image: "images/office-culture/02.jpg"
-    column: "3" # column will be [ 6 or 3 ]
-  - image: "images/office-culture/07.jpg"
-    column: "6" # column will be [ 6 or 3 ]
-  - image: "images/office-culture/06.jpg"
-    column: "3" # column will be [ 6 or 3 ]
-  - image: "images/office-culture/05.jpg"
-    column: "6" # column will be [ 6 or 3 ]
-
-  join_our_team: 
-    title : "Want to Join our Team?"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat eget amtempus eu at consecttur."
-    button:
-      enable : true
-      label : "View open Positions"
-      link : "career/"
+################################## Bottom text ################
+vaucher:
+  title: "At Voucherstore, we believe it’s time to pull together, and we want to share the benefits of our experience with you."
+  content: "The Voucherstore team has a combined hospitality and technology background of 10 years—and our mission is simple. We want to use what we know to raise profits for all the businesses that join our platform. Voucherstore loves to showcase your hospitality or leisure business in the best possible light, and we help position you right where your customers are looking to spend. <br><br>
+We have surveyed the current e-voucher market and are now upping the game. Voucherstore works to provide your sales and marketing team with a suite of smart tools that simplify analytics and open up more growth opportunities. Combine this with our deep knowledge of the hospitality and leisure market in Thailand, and we are geared up to unlock your profit potential with streamlined services that facilitate flow for you, and your valued clients.<br><br>
+Your unique Voucherstore storefront will draw your clients to a point of sale that offers them special upgrades, experiences, and more. The Voucherstore e-voucher platform has been designed by hospitality professionals who understand what people are searching for when it’s time to relax.
+Let’s grow together! It’s time to join forces and reinvigorate the hospitality and leisure sector across Thailand. We are excited—you should be too."
 ---

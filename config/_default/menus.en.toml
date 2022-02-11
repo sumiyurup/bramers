@@ -28,7 +28,7 @@ hasChildren = true
 
   [[main]]
   parent = "How-it-works"
-  name = "Faq"
+  name = "FAQ"
   url = "faq/"
   weight = 1
 
