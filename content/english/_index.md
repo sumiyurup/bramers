@@ -153,4 +153,7 @@ call_to_action:
     enable: true
     label: "Sign up!"
     link: "contact/"
+##################### Blog #####################
+blog:
+  title: "Latest News"
 ---

@@ -6,9 +6,9 @@ contentDir = "content/english"
 weight = 1
 ########### footer content ##########
 footer_menu_left = "Company"
-footer_menu_middle = "Products"
-footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
+footer_menu_middle = "Support"
+footer_menu_right = "Contact"
+footer_content = ""
 
 
 ################################### Deutsch language #####################################
@@ -21,7 +21,7 @@ weight = 2
 footer_menu_left = "Firma"
 footer_menu_middle = "Produkte"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
+footer_content = ""
 
 
 ################################### Chinese language #####################################

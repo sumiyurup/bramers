@@ -333,4 +333,75 @@
 {{ end }} {{ end }}
 <!-- /call to action -->
 
+<!-- Blog section -->
+{{with .Params.blog}}
+<section class="section mt-4">
+  <div class="container">
+    <div class="row gx-5 gy-6">
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title h3">{{.title | markdownify}}</h2>
+      </div>
+      {{ range first 3 (where site.RegularPages "Type" "featured") }}
+      <div class="col-lg-4 col-sm-6 pb-3">
+        <div class="card bg-transparent border-0">
+          {{ if fileExists (add `assets/` .Params.image) }} {{$img:=
+          resources.Get .Params.image }} {{$img:= $img.Resize "560x "}}
+          {{$imgWebp:= $img.Resize "560x webp"}}
+          <img
+            loading="lazy"
+            decoding="async"
+            class="card-img rounded-2 mb-4"
+            width="460"
+            height="230"
+            src="{{ $imgWebp.RelPermalink }}"
+            alt="post image"
+            onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'"
+          />
+          {{end}}
+
+          <div class="card-body p-0">
+            <div class="d-flex align-items-center mb-4">
+              <div class="user-image me-1">
+                <i
+                  class="far fa-user-circle position-relative"
+                  style="font-size: 26px; top: 2px"
+                ></i>
+              </div>
+              <div class="user-info me-3">
+                <p class="fw-500 mb-0">
+                  <span class="mx-1">by</span
+                  ><span class="text-muted">Admin</span>
+                </p>
+              </div>
+
+              <div class="fw-500">
+                <i class="far fa-calendar-alt text-dark me-1"></i> {{
+                time.Format ":date_long" .PublishDate }}
+              </div>
+            </div>
+
+            <h3 class="h5">
+              <a
+                href="{{ .Permalink }}"
+                title="{{ .Title }}"
+                class="text-dark d-inline-block"
+                >{{ .Title }}</a
+              >
+            </h3>
+            <p class="mb-4">{{ .Summary }}</p>
+            <a
+              href="{{.Permalink}}"
+              title="{{ i18n `read_more` }} - {{ .Title }}"
+              class="btn btn-sm btn-primary btn-sm"
+              >{{ i18n `read_more` }}</a
+            >
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /Blog section -->
 {{ end }}

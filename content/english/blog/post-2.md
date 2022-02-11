@@ -6,7 +6,7 @@ image: "images/blog/post-2.jpg"
 # author
 author: "Joseph Gonzalez"
 # post type (regular/featured)
-type: "regular"
+type: "featured"
 # meta description
 description: "This is meta description"
 # post draft
@@ -19,7 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorpe
 
 Pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium consequat mauris viverra. Sagittis eu libero
 
->Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
+> Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
 >
 > <cite>!Alexender Smith</cite>
 
