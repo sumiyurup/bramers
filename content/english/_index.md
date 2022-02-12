@@ -23,11 +23,11 @@ office_culture:
       column: "6" # column will be [ 6 or 3 ]
     - image: "images/office-culture/02.jpg"
       column: "3" # column will be [ 6 or 3 ]
-    - image: "images/office-culture/07.jpg"
+    - image: "images/office-culture/05.jpg"
       column: "6" # column will be [ 6 or 3 ]
     - image: "images/office-culture/06.jpg"
       column: "3" # column will be [ 6 or 3 ]
-    - image: "images/office-culture/05.jpg"
+    - image: "images/office-culture/07.jpg"
       column: "6" # column will be [ 6 or 3 ]
 
   join_our_team:
@@ -35,7 +35,7 @@ office_culture:
     button:
       enable: true
       label: "Request a demo"
-      link: "/"
+      link: "https://calendly.com/voucherstore/60min?month=2022-02"
 
 #################Freature box##########################
 features_box:
@@ -44,7 +44,7 @@ features_box:
   button:
     enable: true
     label: "How it works"
-    link: "/"
+    link: "how-it-works/"
   features_box_item:
     - icon: "fas fa-palette"
       title: "Create An Online Store"
@@ -124,7 +124,7 @@ service:
 
 ################### Testimonials ########################
 testimonials:
-  enable: true
+  enable: false
   title: "Trusted by those you trust"
   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin."
 
@@ -152,7 +152,7 @@ call_to_action:
   button:
     enable: true
     label: "Sign up!"
-    link: "contact/"
+    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
 ##################### Blog #####################
 blog:
   title: "Latest News"

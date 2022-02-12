@@ -75,16 +75,17 @@
   a {
     color: $color-primary;
     text-align: center;
+    border-radius: 5px;
     height: 40px;
     width: 40px;
     line-height: 40px;
     display: block;
     padding: 0px;
     font-size: 36px;
+    background-color: $color_secondary;
 
     &:hover {
-      color: $white;
-      background-color: $color-primary;
+      color: #80278b;
     }
   }
 }

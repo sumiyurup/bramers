@@ -14,6 +14,7 @@ about:
 
 
 # team_members
+team_members_enable: true
 team_members:
   - name: "John Domingo"
     designation: "SEO Marketer"
