@@ -64,8 +64,6 @@ name = "Demo store"
 url = "https://hotel.voucherstore.co.th/"
 weight = 3
 
-
-
 # footer menu middle
 [[footer_middle]]
 name = "FAQ"

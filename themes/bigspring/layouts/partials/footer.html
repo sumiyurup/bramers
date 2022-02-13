@@ -10,14 +10,22 @@
               <ul class="list-unstyled footer-list">
                 {{ range site.Menus.footer_left }}
                 <li>
-                  <a href="{{ .URL | relLangURL }}" title="{{ .Name }}"
-                    >{{ .Name }}</a
-                  >
+                  <a href="{{ .URL | relLangURL }}" title="{{ .Name }}">
+                    {{ .Name }}
+                  </a>
                 </li>
+
                 {{ end }}
+                <li class="flame">
+                  <img
+                    src="https://onlineoppo.com/images/bns_registered.png"
+                    alt=""
+                  />
+                </li>
               </ul>
-              {{ end }}
+              {{ end }}{{ .Name }}
             </div>
+
             <div class="col-lg-3 col-sm-6">
               {{ if site.Menus.footer_middle }}
               <div class="h5 mb-4">{{ site.Params.footer_menu_middle }}</div>

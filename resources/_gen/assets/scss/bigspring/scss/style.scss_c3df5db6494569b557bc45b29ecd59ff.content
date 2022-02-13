@@ -8077,9 +8077,6 @@ form label {
     display: block;
     padding: 0px;
     font-size: 36px; }
-    .social-icons a:hover {
-      color: #fff;
-      background-color: #612069; }
 
 .has-video {
   position: relative;
@@ -8308,3 +8305,7 @@ form label {
 
 .display-none {
   display: none !important; }
+
+.flame img {
+  width: 100px !important;
+  margin-top: 20px; }
