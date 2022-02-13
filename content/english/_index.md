@@ -23,11 +23,11 @@ office_culture:
       column: "6" # column will be [ 6 or 3 ]
     - image: "images/office-culture/02.jpg"
       column: "3" # column will be [ 6 or 3 ]
-    - image: "images/office-culture/05.jpg"
+    - image: "images/office-culture/07.jpg"
       column: "6" # column will be [ 6 or 3 ]
     - image: "images/office-culture/06.jpg"
       column: "3" # column will be [ 6 or 3 ]
-    - image: "images/office-culture/07.jpg"
+    - image: "images/office-culture/05.jpg"
       column: "6" # column will be [ 6 or 3 ]
 
   join_our_team:
@@ -35,7 +35,7 @@ office_culture:
     button:
       enable: true
       label: "Request a demo"
-      link: "https://calendly.com/voucherstore/60min?month=2022-02"
+      link: "/"
 
 #################Freature box##########################
 features_box:
@@ -72,7 +72,7 @@ features_box:
 
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
-  enable: true
+  enable: false
   title: "Streamline Your Sales with Voucherstore"
   content: "Our e-voucher software extends your sales opportunities. Your hotel, restaurant, spa, or golf course can join other leading businesses on the Voucherstore platform, accessing 24/7 sales opportunities in Thailand and all over the world."
   logos:
@@ -152,7 +152,7 @@ call_to_action:
   button:
     enable: true
     label: "Sign up!"
-    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
+    link: "contact/"
 ##################### Blog #####################
 blog:
   title: "Latest News"

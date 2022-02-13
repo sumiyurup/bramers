@@ -20,7 +20,7 @@ call_to_action_1:
   button:
     enable: true
     label: "Sign up!"
-    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
+    link: ""
 
 service_1:
   enable: true
@@ -39,7 +39,7 @@ call_to_action_2:
   button:
     enable: false
     label: "Sign up!"
-    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
+    link: ""
 
 service_2:
   enable: true
@@ -50,7 +50,6 @@ service_2:
         - "images/service-10.png"
 
       content: "Every email that arrives with your voucher attached looks as though it came from you directly. Your customer can download the PDF, use it on their phone with its dedicated QR code, or print out a physical copy to present at your venue. Email vouchers are sent instantly, and they arrive without incurring further costs for either party."
-      padding: "padding-0"
 
     # service item loop
     - title: "Via Traditional Post"
@@ -84,7 +83,7 @@ service_3:
       Every Stripe account has a simple dashboard, so you can log in and use it to easily manage the funds coming directly to your account."
 
     # service item loop
-    - title: "More Redeeming Qualities"
+    - title: "VMore Redeeming Qualities"
       images:
         - "images/service-13.png"
 
@@ -94,12 +93,11 @@ service_4:
   enable: true
   service_item:
     # service item loop
-    - title: "Analyse Everything"
+    - title: "VMore Redeeming Qualities"
       images:
-        - "images/service-14.png"
+        - "images/service-13.png"
 
-      content: "The Voucherstore dashboard makes it simple for accounting departments to download and reconcile sales records with Stripe. <br><br>
-      While savvy marketing teams can leverage built in analytics or connect Google Tag Manager and Facebook Pixel to feed your business with advanced eCommerce insights."
+      content: "Voucherstore offers smarter redemption on vouchers. You can search for and redeem vouchers instantly through the dashboard. Or simply use a QR code scanning device. If you wish, customers can partially use a voucher and retain the remaining balance to use at a later date."
 
 call_to_action_3:
   enable: true
@@ -108,6 +106,6 @@ call_to_action_3:
   button:
     enable: true
     label: "Request a demo"
-    link: "https://calendly.com/voucherstore/60min?month=2022-02"
+    link: ""
 
 ---

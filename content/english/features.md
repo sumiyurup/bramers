@@ -17,7 +17,7 @@ features_box:
   button:
     enable: true
     label: "Sign up!"
-    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
+    link: "/"
   features_box_item:
     - icon: "fas fa-bullseye"
       title: "Work Smarter"
@@ -38,7 +38,7 @@ features_box2:
   button:
     enable: false
     label: "Sign up!"
-    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
+    link: "/"
   features_box_item:
     - icon: "fas fa-hand-holding-usd"
       title: "Get Paid Instantly"
@@ -74,12 +74,12 @@ features_box2:
 
 # features_box3
 features_box3:
-  title: "Features To Keep You Safe"
+  title: "Features That Work in Your Favor"
   enable: true
   button:
     enable: false
     label: "Sign up!"
-    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
+    link: "/"
   features_box_item:
     - icon: "fas fa-credit-card"
       title: "Stripe Payments"
@@ -89,7 +89,7 @@ features_box3:
       title: "Globally Compliant"
       content: "We recognise that different  countries have their own legal requirements. We ensure that you are compliant and meet GDPR and PDPA data protection requirements."
 
-    - icon: "fas fa-shield-alt"
+    - icon: "fas fa-cloud"
       title: "Anti Fraud"
       content: "Voucherstore has a number of security protocols in place like voucher number re-issue to mitigate the risk of fraud and bad actors."
 
@@ -112,5 +112,5 @@ call_to_action:
   button:
     enable: true
     label: "Request a demo"
-    link: "https://calendly.com/voucherstore/60min?month=2022-02"
+    link: "contact/"
 ---
