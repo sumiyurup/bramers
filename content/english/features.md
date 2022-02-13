@@ -74,7 +74,7 @@ features_box2:
 
 # features_box3
 features_box3:
-  title: "Features That Work in Your Favor"
+  title: "Features To Keep You Safe"
   enable: true
   button:
     enable: false
@@ -89,7 +89,7 @@ features_box3:
       title: "Globally Compliant"
       content: "We recognise that different  countries have their own legal requirements. We ensure that you are compliant and meet GDPR and PDPA data protection requirements."
 
-    - icon: "fas fa-cloud"
+    - icon: "fas fa-shield-alt"
       title: "Anti Fraud"
       content: "Voucherstore has a number of security protocols in place like voucher number re-issue to mitigate the risk of fraud and bad actors."
 
