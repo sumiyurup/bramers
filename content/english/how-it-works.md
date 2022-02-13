@@ -20,17 +20,22 @@ call_to_action_1:
   button:
     enable: true
     label: "Sign up!"
-    link: ""
+    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
 
 service_1:
   enable: true
   service_item:
     # service item loop
-    - title: "We Support You"
+    - title: "Create Your Online Store"
       images:
         - "images/service-9.png"
 
-      content: "Our support team is always happy to hear from you as we want to ensure you get the most out of our service. No matter how large your business is, our dedicated support scales with you."
+      content: "We begin by helping you build your online store. Your online store is an extension of your brand and will feature your logos, colors and content.<br><br>
+      Once you are happy with the look of your store, you can start adding “products”—these are your vouchers. Each voucher should include a unique offer with specified terms and conditions. Voucherstore enables both monetary gift card and experience type vouchers.
+
+
+
+"
 
 call_to_action_2:
   enable: true
@@ -49,14 +54,15 @@ service_2:
       images:
         - "images/service-10.png"
 
-      content: "Every email that arrives with your voucher attached looks as though it came from you directly. Your customer can download the PDF, use it on their phone with its dedicated QR code, or print out a physical copy to present at your venue. Email vouchers are sent instantly, and they arrive without incurring further costs for either party."
+      content: "Every email that arrives with your voucher attached looks as though it came from you directly. Your customer can download the PDF, use it on their phone with its dedicated QR code, or print out a physical copy to present at your venue. <br><br>Email vouchers are sent instantly, and they arrive without incurring further costs for either party."
 
     # service item loop
     - title: "Via Traditional Post"
       images:
         - "images/service-11.png"
 
-      content: "Voucherstore hard copy vouchers cost just a little extra: ฿150 and typically your customer would incur the cost. This voucher is sent out in a luxury gift envelope, and we add an extra layer of protection with a hardback envelope to stop it from being damaged in transit. Postal vouchers can be designed with all of your brand features, colors, and logos. This is a great gift idea."
+      content: "Voucherstore hard copy vouchers cost just a little extra: ฿150 and typically your customer would incur the cost. This voucher is sent out in a luxury gift envelope, and we add an extra layer of protection with a hardback envelope to stop it from being damaged in transit. <br><br>Postal vouchers can be designed with all of your brand features, colors, and logos. This is a great gift idea."
+      padding: "mt--180 "
 
 # features_box
 features_box:
@@ -83,7 +89,7 @@ service_3:
       Every Stripe account has a simple dashboard, so you can log in and use it to easily manage the funds coming directly to your account."
 
     # service item loop
-    - title: "VMore Redeeming Qualities"
+    - title: "More Redeeming Qualities"
       images:
         - "images/service-13.png"
 
@@ -93,11 +99,11 @@ service_4:
   enable: true
   service_item:
     # service item loop
-    - title: "VMore Redeeming Qualities"
+    - title: "Analyse Everything"
       images:
-        - "images/service-13.png"
+        - "images/service-14.png"
 
-      content: "Voucherstore offers smarter redemption on vouchers. You can search for and redeem vouchers instantly through the dashboard. Or simply use a QR code scanning device. If you wish, customers can partially use a voucher and retain the remaining balance to use at a later date."
+      content: "The Voucherstore dashboard makes it simple for accounting departments to download and reconcile sales records with Stripe.<br><br> While savvy marketing teams can leverage built in analytics or connect Google Tag Manager and Facebook Pixel to feed your business with advanced eCommerce insights."
 
 call_to_action_3:
   enable: true
