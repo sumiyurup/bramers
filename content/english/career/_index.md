@@ -1,5 +1,5 @@
 ---
-title: "Career"
+title: "Careers"
 subtitle: "We are looking for someone special. We think it might be you… <br><br>
 Voucherstore is an eCommerce platform that serves the hospitality and leisure sector in Thailand. We are streamlining gift card and e-voucher sales in a secure online environment; we take care of our customers so they can increase revenue—and serve their clients better. Voucherstore works out of offices in Bangkok, working hard to take e-voucher sales to the world.<br><br>
 Among other things, we build contemporary digital storefronts for our clients across Thailand. We do this to provide a point of sale for e-vouchers. At Vouchersrtore, we are looking to add to our startup team. At the moment, we are small, but we are growing fast!<br><br>
