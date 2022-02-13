@@ -8300,5 +8300,11 @@ form label {
 .mt--180 {
   margin-top: -180px !important; }
 
+.mt--120 {
+  margin-top: -120px !important; }
+
 .mb-80 {
   margin-bottom: 80px !important; }
+
+.display-none {
+  display: none !important; }
