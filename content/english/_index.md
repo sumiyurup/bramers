@@ -35,7 +35,7 @@ office_culture:
     button:
       enable: true
       label: "Request a demo"
-      link: "/"
+      link: "https://calendly.com/voucherstore/60min?month=2022-02"
 
 #################Freature box##########################
 features_box:
@@ -152,7 +152,7 @@ call_to_action:
   button:
     enable: true
     label: "Sign up!"
-    link: "contact/"
+    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
 ##################### Blog #####################
 blog:
   title: "Latest News"

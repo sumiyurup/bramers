@@ -44,7 +44,7 @@ call_to_action_2:
   button:
     enable: false
     label: "Sign up!"
-    link: ""
+    link: "https://voucherstore.outseta.com/forms/By9qYz9A"
 
 service_2:
   enable: true
@@ -112,6 +112,6 @@ call_to_action_3:
   button:
     enable: true
     label: "Request a demo"
-    link: ""
+    link: "https://calendly.com/voucherstore/60min?month=2022-02"
 
 ---

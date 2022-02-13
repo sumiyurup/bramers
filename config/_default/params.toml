@@ -38,7 +38,7 @@ contact_form_action = "#!" # contact form works with [https://airform.io/] or [h
 get_demo = "#!" # contact form works with [https://airform.io/] or [https://formspree.io]
 
 # copyright
-copyright = "2022 © All Rights Reserved "
+copyright = "All Rights Reserved © 2022 Voucher Store Service Co., Ltd. "
 
 # Preloader
 [preloader]
