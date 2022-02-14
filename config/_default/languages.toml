@@ -11,11 +11,11 @@ footer_menu_right = "Contact"
 footer_content = ""
 
 
-################################### Thai language #####################################
-[th]
-languageName = "TH"
-languageCode = "th-TH"
-contentDir = "content/thai"
+################################### Deutsch language #####################################
+[de]
+languageName = "DE"
+languageCode = "de-DE"
+contentDir = "content/deutsch"
 weight = 2
 ########### footer content ##########
 footer_menu_left = "Firma"
@@ -23,3 +23,15 @@ footer_menu_middle = "Produkte"
 footer_menu_right = "Support"
 footer_content = ""
 
+
+################################### Chinese language #####################################
+[zh-cn]
+languageName = "CN"
+languageCode = "zh-CN"
+contentDir = "content/chinese"
+weight = 3
+########### footer content ##########
+footer_menu_left = "公司"
+footer_menu_middle = "产品"
+footer_menu_right = "支持"
+footer_content = "痛苦本身就是爱"
