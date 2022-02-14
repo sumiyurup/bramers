@@ -1,0 +1,88 @@
+# main menu
+[[main]]
+name = "บ้าน"
+url = ""
+weight = 1
+
+[[main]]
+weight = 2
+name = "บริษัท"
+hasChildren = true
+
+  [[main]]
+  parent = "บริษัท"
+  name = "เกี่ยวกับ"
+  url = "about/"
+  weight = 1
+
+  [[main]]
+  parent = "บริษัท"
+  name = "เกี่ยวกับ"
+  url = "career/"
+  weight = 4
+
+[[main]]
+weight = 3
+name = "How-it-works"
+hasChildren = true
+
+  [[main]]
+  parent = "How-it-works"
+  name = "FAQ"
+  url = "faq/"
+  weight = 1
+
+  [[main]]
+  parent = "How-it-works"
+  name = "How it works"
+  url = "how-it-works/"
+  weight = 4
+
+[[main]]
+  name = "Features"
+  url = "features/"
+  weight = 4
+
+[[main]]
+  name = "Blog"
+  url = "blog/"
+  weight = 5
+
+# footer menu left
+[[footer_left]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer_left]]
+name = "Careers"
+url = "career/"
+weight = 2
+
+[[footer_left]]
+name = "Demo store"
+url = "https://hotel.voucherstore.co.th/"
+weight = 3
+
+# footer menu middle
+[[footer_middle]]
+name = "FAQ"
+url = "faq/"
+weight = 1
+
+[[footer_middle]]
+name = "Help"
+url = "http://help.voucherstore.io/support/kb/categories"
+weight = 2
+
+# footer menu right
+[[footer_right]]
+name = "sales@voucherstore.io"
+url = "mailto:sales@voucherstore.io"
+weight = 1
+
+[[footer_right]]
+name = "063 635 2661"
+url = "tel:0636352661/"
+weight = 2
+
